@@ -6,11 +6,16 @@
 #include <stdarg.h>
 #include <string.h>
 
+/**
+ * struct format - struct
+ * @fn: puntero
+ * @f: puntero
+ */
 typedef struct format
 {
-  char *fn;
-  int (*f)(va_list);
-}f_ok;
+	char *fn;
+	int (*f)(va_list);
+} f_ok;
 
 int _putchar(char c);
 int _printf(const char *format, ...);
