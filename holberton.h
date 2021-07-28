@@ -1,0 +1,23 @@
+#ifndef HOLBERTON_H
+#define HOLBERTON_H
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdarg.h>
+#include <string.h>
+
+typedef struct format
+{
+  char *fn;
+  int (*f)(va_list);
+}f_ok;
+
+int _putchar(char c);
+int _printf(const char *format, ...);
+int (*get(const char *charc, int pos))(va_list);
+int print_string(va_list list);
+int print_char (va_list list);
+
+
+
+#endif
