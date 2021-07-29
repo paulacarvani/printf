@@ -1,0 +1,36 @@
+man 1 "27 July 2021" "_printf man page"
+
+NAME
+_printf
+
+SYNOPSIS
+#include "holberton.h"
+
+int _printf(const char *format, ...);
+
+DESCRIPTION
+The _printf function writes the number of char in
+the arguments of the input, the output is to stdout produced
+according to formats as described below.
+
+RETURN VALUE
+
+With a succesful return, this will get the number of characters
+printed excluding the null byte at the end.
+
+CONVERSION SPECIFIER
+
+Is a character that specifies the type of conversion to be applied.
+The conversion types and their meanings are:
+
+c
+This argument represent a variable type char of one byte.
+
+s
+This argument is expected to be a pointer to a string of characters.
+
+AUTOR
+
+Yudi Andrea Angola Pasos <https://github.com/122-63>
+
+Paula Carvajal <https://github.com/paulacarvani>
