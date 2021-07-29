@@ -13,6 +13,8 @@ int (*get(const char *charc, int pos))(va_list)
 	f_ok type[] = {
 		{"c", print_char},
 		{"s", print_string},
+		{"d", print_decimal},
+		{"i", print_int},
 	};
 
 	lenght = sizeof(type) / sizeof(f_ok);
