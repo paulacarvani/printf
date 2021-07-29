@@ -1,5 +1,4 @@
 #include "holberton.h"
-
 /**
  *print_char - print the option %c
  *@list: list
