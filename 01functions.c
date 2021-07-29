@@ -29,3 +29,11 @@ _putchar(s[i]);
 }
 return (i);
 }
+int print_int(va_list list)
+{
+	int i = va_arg(list, int);
+	_putchar(i % 10 + '0');
+	printf("AQUI ESTA %i\n",i);
+	return(0);
+	
+}
