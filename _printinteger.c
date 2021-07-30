@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _printinteger - recursive fuction
+ * _printinteger - print recursive a character  
  * @n: variable
  * Return: Always 0
  */
