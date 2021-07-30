@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _printf - llamar a diferentes funciones
+ * _printf - function printf
  * @format: puntero
  * Return: Always 0.
  */
