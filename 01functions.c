@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- *print_char - print the option %c
+ *print_char - print the option %c and %s
  *@list: list
  *Descripcion: Funciones de las task 0 y 1
  *Return: the function char
