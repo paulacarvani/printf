@@ -1,6 +1,7 @@
 #include "holberton.h"
 /**
- * get - brint o get the corret fuction
+ * get - listado especificadores de formato
+ * description: mapeamos la función que lo procesa
  * @charc: puntero
  * @pos: variable
  * Return: Always 0.
